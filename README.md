@@ -5,7 +5,9 @@ Dynamic GUI (Single File QML)
 A fully dynamic and responsive GUI written entirely in Qt Quick (QML).
 
 This project demonstrates how to build a window whose components automatically adapt to resizing while keeping the code simple and easy to understand.
+
 Unlike many examples that split the interface into dozens of files, this version is intentionally contained in a single QML file to make it easier to study, copy, and experiment with.
+
 A modular version of the same project will be released separately.
 
 Features
@@ -33,7 +35,7 @@ This repository provides a complete GUI example in one file, making it ideal for
 
 Only one QML file is required.
 
-Requirements
+# Requirements
 Qt 6 (recommended)
 Qt Quick
 Qt Quick Controls
@@ -78,6 +80,7 @@ Easy learning material
 Future
 
 A second repository will contain the same GUI divided into reusable QML components, following a cleaner and more scalable architecture.
+
 This repository intentionally keeps everything in one file for educational purposes.
 
 # License
