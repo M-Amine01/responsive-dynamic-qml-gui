@@ -1,6 +1,6 @@
 # responsive-dynamic-qml-gui
 
-Dynamic GUI (Single File QML)
+# Dynamic GUI (Single File QML)
 
 A fully dynamic and responsive GUI written entirely in Qt Quick (QML).
 
@@ -10,15 +10,24 @@ Unlike many examples that split the interface into dozens of files, this version
 
 A modular version of the same project will be released separately.
 
-Features
+# Features
+
 ✅ Pure QML (Qt Quick Controls)
+
 ✅ Responsive layout
+
 ✅ Dynamic resizing
+
 ✅ Percentage-based sizing
+
 ✅ Easy to read
+
 ✅ Beginner friendly
+
 ✅ Single-file implementation
+
 ✅ No external dependencies
+
 Why this project?
 
 Many QML examples online are either:
@@ -29,6 +38,7 @@ or too large and split into many files.
 This repository provides a complete GUI example in one file, making it ideal for learning how dynamic interfaces work before moving to larger projects.
 
 # Repository Structure
+
 ----Dynamique_GUI.qml
 
 ----README.md
@@ -36,15 +46,21 @@ This repository provides a complete GUI example in one file, making it ideal for
 Only one QML file is required.
 
 # Requirements
+
 Qt 6 (recommended)
+
 Qt Quick
+
 Qt Quick Controls
+
 Running the project
+
 Linux
 
 # Install Qt (if not already installed):
 
 sudo apt update
+
 sudo apt install qt6-base-dev qt6-declarative-dev qml6-module-qtquick qml6-module-qtquick-controls
 
 # Run the application:
@@ -70,13 +86,19 @@ qml Dynamique_GUI.qml
 qmlscene Dynamique_GUI.qml
 
 # Goals
+
 This project was created to demonstrate:
 
 Dynamic user interfaces
+
 Responsive QML design
+
 Percentage-based layouts
+
 Simple architecture
+
 Easy learning material
+
 Future
 
 A second repository will contain the same GUI divided into reusable QML components, following a cleaner and more scalable architecture.
