@@ -42,7 +42,7 @@ This repository provides a complete GUI example in one file, making it ideal for
 ![image alt](https://github.com/M-Amine01/responsive-dynamic-qml-gui/blob/3d8ea8c9b103a5b678ba6c64c3368ef86052a98e/GUI_Dark_Theme.png)
 
 
-# Normal Theme
+# Multicolor Theme
 
 ![image alt](https://github.com/M-Amine01/responsive-dynamic-qml-gui/blob/df3c6771a388bb11f2800691fbd2ee93144d614f/GUI.png)
 
