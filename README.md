@@ -56,7 +56,7 @@ Qt Quick Controls
 Running the project
 
 
-#IN Linux : Install Qt (if not already installed):
+# In Linux : Install Qt (if not already installed):
 
 sudo apt update
 
