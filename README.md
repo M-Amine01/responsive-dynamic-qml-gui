@@ -46,15 +46,6 @@ This repository provides a complete GUI example in one file, making it ideal for
 
 ![image alt](https://github.com/M-Amine01/responsive-dynamic-qml-gui/blob/df3c6771a388bb11f2800691fbd2ee93144d614f/GUI.png)
 
-
-# Repository Structure
-
-----Dynamique_GUI.qml
-
-----README.md
-
-Only one QML file is required.
-
 # Requirements
 
 Qt 6 (recommended)
