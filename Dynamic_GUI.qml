@@ -201,14 +201,15 @@ ApplicationWindow {
             height: 6
             anchors.top: parent.top
             cursorShape: Qt.SizeVerCursor
+            hoverEnabled: true
 
             onPositionChanged: (mouse) => {
                 if (footerHandle.pressed) {
                     let mousePosY = footerHandle.mapToItem(null, mouse.x, mouse.y).y
                     let calcHeight = mainWin.height - mousePosY
 
-                    let minHeight = 10 * rightSide.height / 100
-                    let maxHeight = 40 * rightSide.height / 100
+                    let minHeight = 10 * mainWin.height / 100
+                    let maxHeight = 40 * mainWin.height / 100
 
                     if (calcHeight >= minHeight && calcHeight <= maxHeight) {
                         footer.heightPct = (calcHeight * 100) / mainWin.height
