@@ -28,6 +28,7 @@ This repository provides a complete GUI example in one file, making it ideal for
 
 # Repository Structure
 ----Dynamique_GUI.qml
+
 ----README.md
 
 Only one QML file is required.
