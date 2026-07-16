@@ -72,23 +72,23 @@ sudo apt install qt6-base-dev qt6-declarative-dev qml6-module-qtquick qml6-modul
 qml6 Dynamic_GUI.qml
 ```
 # or
-
+```bash
 qmlscene Dynamic_GUI.qml
-
+```
 # or
-
+```bash
 qml Dynamic_GUI.qml
-
+```
 Depending on your Qt installation, one of the two commands may be available.
 
 # In Windows : Open the Qt Command Prompt and run:
-
+```bash
 qml Dynamique_GUI.qml
-
+```
 # or
-
+```bash
 qmlscene Dynamique_GUI.qml
-
+```
 # Goals
 
 This project was created to demonstrate:
