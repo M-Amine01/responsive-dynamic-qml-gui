@@ -34,8 +34,8 @@ ApplicationWindow {
                 if (headerHandle.pressed) {
                     let mousePosY = headerHandle.mapToItem(null, mouse.x, mouse.y).y
 
-                    let minHeight = 10 * rightSide.height / 100
-                    let maxHeight = 40 * rightSide.height / 100
+                    let minHeight = 10 * mainWin.height / 100
+                    let maxHeight = 40 * mainWin.height / 100
 
                     if (mousePosY >= minHeight && mousePosY <= maxHeight) {
                         header.heightPct = (mousePosY * 100) / mainWin.height
@@ -131,7 +131,7 @@ ApplicationWindow {
             MouseArea {
                 id: rightUpperHandle
                 width: parent.width
-                height: 6
+                height: 5
                 anchors.bottom: parent.bottom
                 hoverEnabled: true
                 cursorShape: Qt.SizeVerCursor
@@ -200,14 +200,15 @@ ApplicationWindow {
             height: 6
             anchors.top: parent.top
             cursorShape: Qt.SizeVerCursor
+            hoverEnabled: true
 
             onPositionChanged: (mouse) => {
                 if (footerHandle.pressed) {
                     let mousePosY = footerHandle.mapToItem(null, mouse.x, mouse.y).y
                     let calcHeight = mainWin.height - mousePosY
 
-                    let minHeight = 10 * rightSide.height / 100
-                    let maxHeight = 40 * rightSide.height / 100
+                    let minHeight = 10 * mainWin.height / 100
+                    let maxHeight = 40 * mainWin.height / 100
 
                     if (calcHeight >= minHeight && calcHeight <= maxHeight) {
                         footer.heightPct = (calcHeight * 100) / mainWin.height
