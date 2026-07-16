@@ -100,12 +100,6 @@ Simple architecture
 
 Easy learning material
 
-Future
-
-A second repository will contain the same GUI divided into reusable QML components, following a cleaner and more scalable architecture.
-
-This repository intentionally keeps everything in one file for educational purposes.
-
 # License
 Feel free to use, modify, and learn from this project.
 If this repository helped you, consider giving it a ⭐.
