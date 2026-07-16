@@ -55,9 +55,8 @@ Qt Quick Controls
 
 Running the project
 
-Linux
 
-# Install Qt (if not already installed):
+#IN Linux : Install Qt (if not already installed):
 
 sudo apt update
 
@@ -77,7 +76,7 @@ qml Dynamic_GUI.qml
 
 Depending on your Qt installation, one of the two commands may be available.
 
-# Windows , Open the Qt Command Prompt and run:
+# In Windows : Open the Qt Command Prompt and run:
 
 qml Dynamique_GUI.qml
 
