@@ -61,15 +61,16 @@ Running the project
 
 
 # In Linux : Install Qt (if not already installed):
-
+```bash
 sudo apt update
 
 sudo apt install qt6-base-dev qt6-declarative-dev qml6-module-qtquick qml6-module-qtquick-controls
+```
 
 # Run the application:
-
+```bash
 qml6 Dynamic_GUI.qml
-
+```
 # or
 
 qmlscene Dynamic_GUI.qml
